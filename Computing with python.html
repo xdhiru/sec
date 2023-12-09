@@ -1,0 +1,362 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"DengXian Light";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@DengXian Light";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin:0in;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Title Char";
+	margin:0in;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Title Char";
+	margin:0in;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Title Char";
+	margin:0in;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoTitle><span lang=EN-IN>Computing with python = SEC :- 3</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Practice all the programs  performed in the
+lab </span></p>
+
+<p class=MsoNormal><span lang=EN-IN>List </span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Tuples</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Dictionaries</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Numpy</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Pandas </span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Loc iloc</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Finding repeated values</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Finding missing values null values and how
+to fill them</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Converting categorical to non categorical</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>How to read CSV files</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>How to visualise plt.plot plt.scatter</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>List:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Creating a list</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_list = [1, 2, 3, 4, 5]</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Accessing elements</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(my_list[0])  # Output: 1</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Modifying elements</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_list[0] = 10</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Adding elements</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_list.append(6)</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Removing elements</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_list.remove(3)</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Iterating through a list</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>for item in my_list:</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>    print(item)</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Tuples:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Creating a tuple</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_tuple = (1, 2, 3, 4, 5)</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Accessing elements</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(my_tuple[0])  # Output: 1</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Tuples are immutable, so you cannot
+modify elements</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Dictionaries:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Creating a dictionary</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_dict = {'name': 'John', 'age': 25,
+'city': 'New York'}</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Accessing values</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(my_dict['name'])  # Output: John</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Modifying values</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_dict['age'] = 26</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Adding new key-value pairs</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_dict['gender'] = 'Male'</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Iterating through a dictionary</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>for key, value in my_dict.items():</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>    print(key, value)</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Numpy:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>import numpy as np</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Creating a numpy array</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_array = np.array([1, 2, 3, 4, 5])</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Array operations</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(np.sum(my_array))</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(np.mean(my_array))</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Pandas :-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>import pandas as pd</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Creating a pandas DataFrame</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>data = {'Name': ['John', 'Alice', 'Bob'],</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>        'Age': [25, 30, 22]}</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>df = pd.DataFrame(data)</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Viewing the DataFrame</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(df)</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Accessing columns</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(df['Name'])</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Loc iloc:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Using loc to access data by label</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(df.loc[0])</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Using iloc to access data by index</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(df.iloc[0])</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Finding repeated values:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Finding repeated values in a list</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>my_list = [1, 2, 3, 4, 1, 2, 5]</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(set([x for x in my_list if
+my_list.count(x) &gt; 1]))</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Finding missing values null values and how
+to fill them:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Finding missing values in a DataFrame</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>print(df.isnull())</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Filling missing values with a specific
+value</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>df.fillna(0, inplace=True)</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>Converting categorical to non categorical:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Converting a categorical column to
+non-categorical</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>df['Age'] = df['Age'].astype('int')</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>How to read CSV files:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Reading a CSV file into a DataFrame</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>csv_data = pd.read_csv('your_file.csv')</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>How to visualise plt.plot plt.scatter:-</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>import matplotlib.pyplot as plt</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Creating a simple plot</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>plt.plot([1, 2, 3, 4], [10, 20, 25, 30])</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN># Creating a scatter plot</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>plt.scatter(df['Age'], df['Salary'])</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>plt.xlabel('Age')</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>plt.ylabel('Salary')</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>plt.show()</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-IN>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
